@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LineProgressControlBar</string>
+    <string name="screen_brightness">屏幕亮度</string>
+    <string name="volume_adjust">提示音</string>
+    <string name="volume_hint">闹钟与计时提醒发出提示音</string>
+</resources>

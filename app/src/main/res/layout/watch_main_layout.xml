@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/id_brightness_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/screen_brightness"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="onChangeBrightnessFragment"/>
+
+    <Button
+        android:id="@+id/id_volume_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volume_adjust"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:onClick="onChangeVolumeFragment"/>
+
+    <ScrollView
+        android:id="@+id/id_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

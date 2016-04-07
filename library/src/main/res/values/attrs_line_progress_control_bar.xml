@@ -1,0 +1,18 @@
+<resources>
+    <attr name="first_color" format="color" />
+    <attr name="second_color" format="color" />
+    <attr name="total_width" format="dimension" />
+    <attr name="divide_width" format="dimension" />
+    <attr name="progress_height" format="dimension" />
+    <attr name="dot_count" format="integer" />
+
+    <declare-styleable name="LineProgressControlBar">
+        <attr name="first_color" />
+        <attr name="second_color" />
+        <attr name="total_width" />
+        <attr name="divide_width" />
+        <attr name="progress_height" />
+        <attr name="dot_count" />
+
+    </declare-styleable>
+</resources>
