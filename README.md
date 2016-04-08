@@ -5,9 +5,11 @@ LineProgressControlBar是一个带间断的水平进度条.
 # DEMO
 
 调节亮度:
+
 ![Brightness](https://github.com/wangzhengyi/LineProgressControlBar/raw/master/screenshots/device-2016-04-08-154552.png)
 
 声音调节:
+
 ![Volume](https://github.com/wangzhengyi/LineProgressControlBar/raw/master/screenshots/device-2016-04-08-154642.png)
 
 # Usage
