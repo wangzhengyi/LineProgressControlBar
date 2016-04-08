@@ -57,8 +57,6 @@ public class WatchBrightnessFragment extends Fragment implements
         View rootView = inflater.inflate(R.layout.fragment_watch_brightness, container, false);
         mLineProgressControlBar =
                 (LineProgressControlBar) rootView.findViewById(R.id.id_line_progress_control_bar);
-        mLineProgressControlBar.setOnProgressChangeListener(this);
-        mLineProgressControlBar.setMaxAndMinProgress(DEFAULT_MAX_BACKLIGHT, DEFAULT_MIN_BACKLIGHT);
 
         ImageView minusImg = (ImageView) rootView.findViewById(R.id.id_minus_img);
         minusImg.setOnClickListener(new View.OnClickListener() {
@@ -93,6 +91,8 @@ public class WatchBrightnessFragment extends Fragment implements
     }
 
     private void initView() {
+        mLineProgressControlBar.setOnProgressChangeListener(this);
+        mLineProgressControlBar.setMaxAndMinProgress(DEFAULT_MAX_BACKLIGHT, DEFAULT_MIN_BACKLIGHT);
         mLineProgressControlBar.setCurrentProgress(mLastBrightness);
     }
 
