@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_brightness">屏幕亮度</string>
+    <string name="volume_adjust">提示音</string>
+    <string name="volume_hint">鬧鐘與計時提醒發出提示音</string>
+</resources>
